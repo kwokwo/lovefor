@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: sisun, microsoft yahei;
+}
+
+.main {
+    margin: 0 auto;
+    width: 1192px;
+}
+
+.main .svg-block {
+    width: 100%;
+}
+
+.main .svg-block .line-content {
+    background: url("../images/svg-bg.png") no-repeat left top;
+    width: 100%;
+}
+
+.svg-block svg {
+    width: 100%;
+    height: 1145px;
+}
+.time-line {
+    fill: none;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 4627.88232421875;
+    stroke-dashoffset: 4627.88232421875;
+    -webkit-animation:dash 10s linear forwards;
+    -o-animation:dash 10s linear forwards;
+    animation: dash 10s linear forwards;
+}
+@keyframes dash {
+    from {
+        stroke-dashoffset:0;
+    }
+    to {
+        stroke-dashoffset:-4627.88232421875 ;
+    }
+}
+@-ms-keyframes dash {
+    from {
+        stroke-dashoffset:0;
+    }
+    to {
+        stroke-dashoffset:-4627.88232421875 ;
+    }
+}
